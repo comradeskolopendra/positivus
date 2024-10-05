@@ -1,0 +1,71 @@
+.form {
+    background: rgb(var(--light));
+    padding: 60px 0 100px 80px;
+    box-sizing: border-box;
+    border-radius: 45px;
+    position: relative;
+    overflow: hidden;
+}
+
+.items {
+    max-width: 550px;
+}
+
+.checkboxes {
+    display: flex;
+    gap: 35px;
+}
+
+.inputs {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.button {
+    width: 100%;
+}
+
+.svg {
+    display: block;
+    position: absolute;
+    right: -346px;
+    top: 60px;
+}
+
+@media screen and (max-width: 1240px) {
+    .svg {
+        display: none;
+    }
+
+    .form {
+        background: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .items {
+        background: rgb(var(--light));
+        padding: 30px;
+        box-sizing: border-box;
+        border-radius: 45px;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        max-width: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .button {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+}

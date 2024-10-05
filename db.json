@@ -1,0 +1,144 @@
+{
+  "employees": [
+    {
+      "name": "Jonh Smith",
+      "position": "CEO and Founder",
+      "photo": "/assets/team/john.png",
+      "about": "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+      "link": "#",
+      "id": "fee6"
+    },
+    {
+      "name": "Jane Doe",
+      "position": "Director of Operations",
+      "photo": "/assets/team/jane.png",
+      "about": "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+      "link": "#",
+      "id": "4f57"
+    },
+    {
+      "name": "Michael Brown",
+      "position": "Senior SEO Specialist",
+      "photo": "/assets/team/michael.png",
+      "about": "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+      "link": "#",
+      "id": "ef77"
+    },
+    {
+      "name": "Emily Johnson",
+      "position": "PPC Manager",
+      "photo": "/assets/team/emily.png",
+      "about": "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
+      "link": "#",
+      "id": "fa89"
+    },
+    {
+      "name": "Brian Williams",
+      "position": "Social Media Specialist",
+      "photo": "/assets/team/brian.png",
+      "about": "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
+      "link": "#",
+      "id": "a91f"
+    },
+    {
+      "name": "Sarah Kim",
+      "position": "Content Creator",
+      "photo": "/assets/team/sarah.png",
+      "about": "2+ years of experience in writing and editing <br/> Skilled in creating compelling, SEO- optimized content for various industries",
+      "link": "#",
+      "id": "7569"
+    }
+  ],
+  "services": [
+    {
+      "image": "assets/services/seo.png",
+      "name": "Search engine * optimization",
+      "link": "/",
+      "variant": "light",
+      "titleVariant": "primary",
+      "id": "40ca"
+    },
+    {
+      "image": "assets/services/ppc-ad.png",
+      "name": "Pay-per-click * advertising",
+      "link": "/",
+      "variant": "primary",
+      "titleVariant": "light",
+      "id": "8fd1"
+    },
+    {
+      "image": "assets/services/smm.png",
+      "name": "Social Media * Marketing",
+      "link": "/",
+      "variant": "dark",
+      "titleVariant": "light",
+      "id": "4646"
+    },
+    {
+      "image": "assets/services/emailing.png",
+      "name": "Email * Marketing",
+      "link": "/",
+      "variant": "light",
+      "titleVariant": "primary",
+      "id": "7880"
+    },
+    {
+      "image": "assets/services/content-creation.png",
+      "name": "Content * Creation",
+      "link": "/",
+      "variant": "primary",
+      "titleVariant": "light",
+      "id": "3e5d"
+    },
+    {
+      "image": "assets/services/analytics.png",
+      "name": "Analytics * and Tracking",
+      "link": "/",
+      "variant": "dark",
+      "titleVariant": "primary",
+      "id": "fc39"
+    }
+  ],
+  "mail": [
+    {
+      "id": "40d2",
+      "name": "123",
+      "email": "123",
+      "message": "123"
+    },
+    {
+      "id": "45af",
+      "name": "123",
+      "email": "123",
+      "message": "123"
+    },
+    {
+      "id": "9422",
+      "name": "Dima",
+      "email": "comradeskolopendra@gmail.com",
+      "message": "nice site!",
+      "typeOfContact": "Say Hi"
+    },
+    {
+      "id": "107c",
+      "name": "Dima",
+      "email": "comradeskolopendra@gmail.com",
+      "message": "realy nice site!",
+      "typeOfContact": "Get a Quote"
+    },
+    {
+      "id": "14f5",
+      "name": "123",
+      "email": "123",
+      "message": "123",
+      "typeOfContact": "Say Hi"
+    },
+    {
+      "id": "c149",
+      "name": "IGOR",
+      "email": "IGO2232",
+      "message": "MESSAGE",
+      "typeOfContact": "Say Hi"
+    }
+  ]
+}

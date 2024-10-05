@@ -1,0 +1,42 @@
+.button {
+    padding: 20px 35px;
+    font-family: "Space Grotesk";
+    border-radius: 14px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(var(--dark));
+    transition: all 0.15s ease-in-out;
+    width: fit-content;
+}
+
+.transparent {
+    color: rgb(var(--dark));
+    border: 1px solid rgb(var(--dark));
+}
+
+.dark {
+    color: white;
+    background: rgb(var(--dark));
+}
+
+.primary {
+    color: rgb(var(--dark));
+    background: rgb(var(--primary));
+}
+
+.button.primary:hover {
+    background: rgb(152, 208, 83);
+    transition: all 0.15s ease-in-out;
+}
+
+.button.dark:hover {
+    background: rgb(11, 12, 16);
+    transition: all 0.15s ease-in-out;
+}
+
+.button.transparent:hover {
+    opacity: 0.8;
+    transition: all 0.15s ease-in-out;
+}

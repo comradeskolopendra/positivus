@@ -1,0 +1,28 @@
+.title {
+    padding: 0 8px;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+.title::first-line {
+    // border-top-left-radius: 8px;
+    // border-top-right-radius: 8px;
+    // border-bottom-left-radius: 8px;
+    // border-bottom-right-radius: 8px;
+    border-radius: 8px;
+}
+
+.primary {
+    color: black;
+    background: rgb(var(--primary));
+}
+
+.light {
+    background: white;
+    color: black;
+}
+
+.dark {
+    background: rgb(var(--dark));
+    color: white;
+}

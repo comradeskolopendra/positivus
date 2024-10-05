@@ -1,0 +1,52 @@
+.card {
+    width: 100%;
+    max-width: 600px;
+    height: 310px;
+    padding: 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(var(--dark));
+    border-left: 1px solid rgb(var(--dark));
+    border-right: 1px solid rgb(var(--dark));
+    border-bottom: 5px solid rgb(var(--dark));
+    border-radius: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.darkCard {
+    background-color: rgb(var(--dark));
+}
+
+.lightCard {
+    background-color: rgb(var(--light));
+}
+
+.primaryCard {
+    background-color: rgb(var(--primary));
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 250px;
+    height: 100%;
+}
+
+@media screen and (max-width: 1240px) {
+    .card {
+        max-width: 820px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .image {
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        width: 150px;
+    }
+}

@@ -1,0 +1,90 @@
+:root {
+    --primary: 185, 255, 102;
+    --dark: 25, 26, 35;
+    --light: 243, 243, 243;
+    --swiper-pagination-bottom: 45px;
+}
+
+@font-face {
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    src: url("./shared/assets/fonts/SpaceGrotesk-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Space Grotesk";
+    font-weight: 100;
+    src: url("./shared/assets/fonts/SpaceGrotesk-Light.ttf");
+}
+
+@font-face {
+    font-family: "Space Grotesk";
+    font-weight: 400;
+    src: url("./shared/assets/fonts/SpaceGrotesk-Regular.ttf");
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #191A23 #F3F3F3;
+}
+
+body {
+    font-family: "Space Grotesk";
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1240px) {
+    h1 {
+        font-size: 43px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.swiper-wrapper {
+    height: fit-content !important;
+}

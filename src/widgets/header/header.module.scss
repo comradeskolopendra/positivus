@@ -1,0 +1,39 @@
+.header {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigate {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width: 1240px) {
+    .header {
+        padding: 20px;
+    }
+
+    .navigate {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        border: none;
+        background: transparent;
+
+        & img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}

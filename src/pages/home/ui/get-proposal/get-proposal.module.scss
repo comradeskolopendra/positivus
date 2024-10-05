@@ -1,0 +1,58 @@
+.wrapper {
+    padding: 23.5px 0;
+    margin: 100px 0 100px 0;
+}
+
+.proposal {
+    padding: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(var(--light));
+    border-radius: 45px;
+    position: relative
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 500px;
+}
+
+.svg {
+    position: absolute;
+    top: -23.5px;
+    right: 0;
+    display: block;
+}
+
+@media screen and (max-width: 1240px) {
+    .proposal {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 820px;
+        margin: 0 auto;
+    }
+
+    .info {
+        max-width: unset;
+    }
+
+    .svg {
+        display: none;
+    }
+
+    .get {
+        width: 100%;
+        max-width: 320px;
+        display: flex;
+        align-self: flex-start;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}

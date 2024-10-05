@@ -1,0 +1,105 @@
+.swiper {
+    width: 100%;
+    height: 625px;
+    background-color: rgb(var(--dark));
+    border-radius: 45px;
+    user-select: none;
+    overflow: hidden;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    cursor: grab;
+    height: fit-content !important;
+}
+
+.slide p {
+    color: white;
+}
+
+.description {
+    max-width: 500px;
+}
+
+.content {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 25px;
+}
+
+.name {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.name span {
+    color: rgb(var(--primary));
+}
+
+.controls {
+    position: absolute;
+    bottom: 40px;
+    width: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 11;
+}
+
+.changeSlide {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.bullets {
+    display: flex;
+    gap: 20px;
+}
+
+.bullet {
+    margin: 0 10px;
+}
+
+.active>path {
+    fill: rgb(var(--primary));
+}
+
+@media screen and (max-width: 1240px) {
+    .slide {
+        align-items: center;
+    }
+
+    .description {
+        max-width: 270px;
+    }
+
+    .controls {
+        width: 320px;
+    }
+
+    .content {
+        width: unset;
+        height: 270px;
+        justify-content: unset;
+        align-items: unset;
+        padding: 25px;
+    }
+
+    .name {
+        margin-left: 65px;
+    }
+}

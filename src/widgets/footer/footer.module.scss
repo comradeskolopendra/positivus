@@ -1,0 +1,162 @@
+.footer {
+    max-width: 1240px;
+    margin: 100px auto 0;
+    background-color: rgb(var(--dark));
+    border-radius: 45px 45px 0 0;
+    padding: 50px 60px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+
+    & a {
+        color: white;
+        text-decoration: underline;
+        font-size: 18px;
+    }
+}
+
+.networks {
+    display: flex;
+    gap: 20px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.title {
+    margin-bottom: 25px;
+}
+
+.contactUs {
+    max-width: 335px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & p {
+        color: white;
+    }
+}
+
+.email {
+    max-width: 635px;
+    padding: 60px 40px;
+    box-sizing: border-box;
+    height: auto;
+    background: #292A32;
+    border-radius: 15px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    max-width: 285px;
+}
+
+.divider {
+    margin: 50px 0;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.bottom {
+    display: flex;
+    gap: 40px;
+
+    & p,
+    & a {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+
+        & a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    }
+
+    .top {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .middle {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .email {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .input {
+        max-width: unset;
+        width: 100%;
+    }
+
+    .text {
+        gap: 15px;
+    }
+
+    .contactUs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        & * {
+            text-align: center;
+        }
+    }
+
+    .subscribe {
+        width: 100%;
+    }
+
+    .title {
+        margin-bottom: 0;
+    }
+
+    .bottom {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .networks {
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .divider {
+        margin: 40px 0;
+    }
+}

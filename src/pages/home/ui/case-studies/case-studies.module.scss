@@ -1,0 +1,27 @@
+.caseStudies {
+    margin-bottom: 100px;
+}
+
+.text {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.text p {
+    max-width: 580px;
+}
+
+@media screen and (max-width: 1240px) {
+    .text {
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+
+        * {
+            text-align: center;
+        }
+    }
+}

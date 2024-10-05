@@ -1,0 +1,61 @@
+.wrapper {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input,
+.textarea {
+    padding: 18px 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    outline: none;
+    font-family: "Space Grotesk", sans-serif;
+    border: 1px solid rgb(var(--dark));
+    font-size: 18px;
+
+    &::placeholder {
+        color: rgb(var(--dark));
+        font-size: 18px;
+    }
+
+    &::-webkit-input-placeholder {
+        color: rgb(var(--dark));
+        font-size: 18px;
+    }
+
+    &::-moz-placeholder {
+        color: rgb(var(--dark));
+        font-size: 18px;
+        opacity: 1;
+    }
+}
+
+.textarea {
+    max-width: 100%;
+    resize: none;
+    height: 190px
+}
+
+.whiteInput {
+    background: white;
+}
+
+.blackInput {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+
+    &::placeholder {
+        color: white;
+    }
+
+    &::-webkit-input-placeholder {
+        color: white;
+    }
+
+    &::-moz-placeholder {
+        color: white;
+        opacity: 1;
+    }
+}
