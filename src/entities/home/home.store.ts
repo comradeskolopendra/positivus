@@ -8,6 +8,7 @@ import type {
     IService,
     IServiceState
 } from "./model/types";
+import { mockAPI } from "@/shared/mock/mock";
 
 class HomeStore {
     constructor() {
@@ -50,7 +51,8 @@ class HomeStore {
 
     getEmployees = async () => {
         try {
-            const data = await request<IEmployee[]>("employees");
+            // const data = await request<IEmployee[]>("employees"); // db.json api
+            const data = await mockAPI.getEmployeesMock(); // mock api
             runInAction(() => {
                 this._employees = {
                     data,
@@ -72,7 +74,8 @@ class HomeStore {
 
     getServices = async () => {
         try {
-            const data = await request<IService[]>("services");
+            // const data = await request<IService[]>("services"); // db.json api
+            const data = await mockAPI.getServicesMock(); // mock api
             runInAction(() => {
                 this._services = {
                     data,

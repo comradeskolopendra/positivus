@@ -20,8 +20,6 @@ const ContactForm = observer(() => {
         sendEmailData(formData);
     };
 
-
-
     return (
         <form className={styles.form} onSubmit={handleSubmit}>
             <section className={styles.items}>
